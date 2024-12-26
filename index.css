@@ -383,11 +383,10 @@ ul.navigation>li>a>span:hover {
     display: none;
 }
 
-.fornt1:hover .stats-back-box {
+.fornt1:hover{ .stats-back-box {
     display: block;
     color: #fff;
     padding: 0 12px;
-    z-index: 1;
     text-align: center;
     width: 100%;
     font-size: 18px;
@@ -395,6 +394,7 @@ ul.navigation>li>a>span:hover {
     transform: rotateY(180deg);
     background: #ec3636;
     z-index: 2;
+}
 }
 
 
@@ -1511,6 +1511,10 @@ ul.navigation>li>a>span:hover {
     transition: all 0.3s ease-in-out;
 }
 
+.generative-content a:hover{
+    background-color: #fff;
+    color: #000;
+}
 footer {
     float: left;
     width: 1367px;
